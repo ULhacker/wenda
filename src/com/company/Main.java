@@ -3,7 +3,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("helloworld!");
-        System.out.println("你好");
+        if (1 == 0)
+            System.out.println("helloworld!");
+        else
+            System.out.println("你好");
     }
 }
